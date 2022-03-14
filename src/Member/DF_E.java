@@ -1,9 +1,7 @@
 package Member;
 import java.util.Random;
 
-
-public class GK_A implements Member{
-
+public class DF_E implements Member{
 
     Random random = new Random();
 
@@ -14,34 +12,31 @@ public class GK_A implements Member{
 
     @Override
     public int DF_stat(int DF_stat) {
-        return  random.nextInt(100);
+        return random.nextInt(100);
     }
 
     @Override
     public int MF_stat(int MF_stat) {
-        return  random.nextInt(100);
+        return random.nextInt(100);
     }
 
     @Override
     public int FW_stat(int FW_stat) {
-        return  random.nextInt(100);
+        return random.nextInt(100);
     }
 
     @Override
     public int Condition(int Condition) {
-        return  random.nextInt(100);
+        return random.nextInt(100);
     }
 
     @Override
     public int Height(int Height) {
-        return 195;
+        return 176;
     }
 
     @Override
     public int Weight(int Weight) {
-        return 83;
+        return 70;
     }
-
-
 }
-
